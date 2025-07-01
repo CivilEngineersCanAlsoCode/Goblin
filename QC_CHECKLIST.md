@@ -1,0 +1,5 @@
+- [ ] Every REQ ID has at least one instruction in `AUTOAPPLY_CODEX_PROMPT.md`
+- [ ] Comment examples follow COMMENT_GUIDE
+- [ ] Notification spec implemented
+- [ ] All edge cases from ERROR_CATALOG referenced
+- [ ] Future stubs tagged & commented
