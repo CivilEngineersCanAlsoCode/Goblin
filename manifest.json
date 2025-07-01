@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AutoApply",
+  "version": "0.1.0",
+  "description": "Automate job applications",
+  "permissions": ["notifications", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/64.png"
+    }
+  },
+  "icons": {
+    "64": "icons/64.png",
+    "128": "icons/128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/recorder.js", "dist/replayer.js", "dist/captcha-handler.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
