@@ -1,0 +1,12 @@
+{
+  "name": "autoapply",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.328",
+    "typescript": "^5.4.5"
+  }
+}
